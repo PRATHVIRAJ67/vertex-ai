@@ -1,0 +1,3 @@
+gradio
+Gunicorn
+google-cloud-aiplatform
