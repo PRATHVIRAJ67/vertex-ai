@@ -3,7 +3,7 @@ import os
 
 PROJECT_ID="royal-401515"
 LOCATION="us-central1"
-os.environ.get('API_KEY')
+os.environ.get('credential.json')
 aiplatform.init(project=PROJECT_ID,location=LOCATION)
 from vertexai.language_models import TextGenerationModel 
 
